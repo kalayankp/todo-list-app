@@ -1,0 +1,71 @@
+
+.App {
+    text-align: center;
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    padding: 20px;
+  }
+  
+  
+  h1 {
+    color:blue;
+    margin-bottom: 18px;
+
+  }
+  
+  
+  input[type="text"] {
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-right: 10px;
+  }
+  
+  button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  
+  ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  li {
+    margin: 10px 0;
+    padding: 10px;
+    background-color: white;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  
+  li.completed {
+    background-color: #d3ffd3;
+    text-decoration: line-through;
+  }
+  
+  
+  li.incomplete {
+    background-color: #ffd3d3;
+  }
+  
+  
+  @media (max-width: 768px) {
+    h1 {
+      font-size: 24px;
+    }
+    button {
+      padding: 8px 16px;
+    }
+  }
+  
